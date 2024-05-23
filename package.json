@@ -1,6 +1,27 @@
 {
   "dependencies": {
-    "jimp": "^0.22.12",
-    "qrcode-reader": "^1.0.4"
-  }
+    "jimp": "0.22.12",
+    "jsonwebtoken": "9.0.2",
+    "lodash": "4.17.21",
+    "qrcode-reader": "1.0.4"
+  },
+  "name": "DineWise",
+  "description": "restaurant management system",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArshitMittal/personal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArshitMittal/personal/issues"
+  },
+  "homepage": "https://github.com/ArshitMittal/personal#readme"
 }
